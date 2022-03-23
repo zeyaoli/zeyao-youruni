@@ -1,5 +1,38 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+<hr/>
+
+I used Next.js and mostly styled jsx to write this project, and a little bit of CSS module for some additional styling.
+
+This is a quick sketch of how I want to structure the page on paper
+
+!['A sketch of my thought process'](/public//thought-process.jpeg)
+
+## Next Step
+
+- Separate the university card as an individual component?
+- Try to explore color masking image through css
+- Consider using css variable for font size as well to be more systematic
+- Remove unused dependencies
+
+
+## Setup local env
+
+To set up a local dev environment, go to terminal, and run
+```
+npm install
+```
+to install all the dependencies. 
+
+And run 
+```
+npx next
+``` 
+to start the server on [http://localhost:3000](http://localhost:3000)
+
+
+<br>
+
 ## Getting Started
 
 First, run the development server:

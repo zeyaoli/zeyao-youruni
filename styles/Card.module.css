@@ -1,0 +1,31 @@
+.card{
+  border-radius: 8px;
+  box-shadow: var(--medium-shadow);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: var(--inner-padding);
+}
+.cardLocation{
+  color: var(--text-color-medium);
+  font-size: 14px;
+}
+.cardTitle{
+  color: var(--text-color-dark);
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.35;
+  margin-top: 4px;
+}
+.card a{
+  color: var(--accent-color);
+  font-size: 15px;
+  margin-top: auto;
+  padding-top: 8px;
+  /* edge case for mobile  */
+  word-break: break-all;
+
+}
+.card a:hover{
+  text-decoration: underline;
+}
